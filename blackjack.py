@@ -1,7 +1,7 @@
 # Очко
 # От 1 до 7 игроков против дилера
 
-import cards, games     
+import cards, games
 
 class BJ_Card(cards.Card):
     """ Карта для игры в Блек-джек. """
