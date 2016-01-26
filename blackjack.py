@@ -155,7 +155,7 @@ class BJ_Game(object):
                 for player in self.still_playing:
                     player.win()                    
             else:
-                # равниваем суммы очков у дилера и у игроков, оставшихся в и;ре
+                # сравниваем суммы очков у дилера и у игроков, оставшихся в и;ре
                 for player in self.still_playing:
                     if player.total > self.dealer.total:
                         player.win()
